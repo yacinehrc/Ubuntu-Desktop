@@ -190,7 +190,7 @@ L'assistant se conclut avec un message de bienvenue. Cliquez sur **"Done"** pour
 
 Vous accédez désormais au **bureau Ubuntu Desktop**. L'environnement GNOME est prêt à l'emploi.
 
-<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 135323" src="https://github.com/user-attachments/assets/e0694d4c-f41f-40fb-97d6-5d0cef2da96c" />
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 135323" src="https://github.com/user-attachments/assets/ebf4309f-a124-44dc-93a2-af05a45aaec2" />
 
 Vous avez les applications disponibles en appuyant sur **l'icône à 9 boutons**.
 

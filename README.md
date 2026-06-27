@@ -1,4 +1,4 @@
-# Ubuntu Desktop — Guide d'installation complet
+# Ubuntu (GNOME) Desktop — Guide d'installation complet
 <img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 135323" src="https://github.com/user-attachments/assets/4efec2e8-ade4-48e5-9eee-81e6d96ec9bb" />
 
 > Ce guide couvre deux scénarios : installer Ubuntu dans une **machine virtuelle (VMware)** pour tester sans risque, ou installer Ubuntu **directement sur un PC** pour lui donner une seconde vie. Les deux parcours sont documentés pas à pas avec captures d'écran.

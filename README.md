@@ -32,13 +32,14 @@ Une machine virtuelle (VM) permet de faire tourner Ubuntu dans une fenêtre de v
 
 ### 1. Création de la VM
 
-Ouvrez **VMware Workstation** (ou VMware Player) et lancez la création d'une nouvelle machine virtuelle.
+Ouvrez **VMware Workstation** et lancez la création d'une nouvelle machine virtuelle.
 
-![Accueil VMware Workstation](https://github.com/user-attachments/assets/3d4632c2-9bb2-4c90-b764-41bb3e298f87)
+<img width="1919" height="1029" alt="Capture d&#39;écran 2026-06-26 132832" src="https://github.com/user-attachments/assets/d2f72d8e-9a25-4d4f-a5b6-4570ad9e7c7e" />
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 132851" src="https://github.com/user-attachments/assets/31ac2dcf-a361-4109-b14b-2d8d14835818" />
 
-Sélectionnez **"Typical (recommended)"** pour un processus guidé simplifié.
+Sélectionnez **"Personnalisée (avancée)"** pour un paramétrage plus précis ou alors **"Typique (recommandé)"** pour un processus guidé simplifié.
 
-![Choix du type d'installation](https://github.com/user-attachments/assets/110331a2-fd4d-403f-bcd3-e76c93326b3f)
+<img width="1919" height="1029" alt="Capture d&#39;écran 2026-06-26 132904" src="https://github.com/user-attachments/assets/d74e0bb0-f75c-4454-abba-fd3958073b3e" />
 
 Choisissez **"Installer disc image file (iso)"** et sélectionnez l'ISO Ubuntu téléchargée. VMware détecte automatiquement le système et active le mode **Easy Install**.
 

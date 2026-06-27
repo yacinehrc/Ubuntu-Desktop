@@ -41,27 +41,50 @@ Sélectionnez **"Personnalisée (avancée)"** pour un paramétrage plus précis 
 
 <img width="1919" height="1029" alt="Capture d&#39;écran 2026-06-26 132904" src="https://github.com/user-attachments/assets/d74e0bb0-f75c-4454-abba-fd3958073b3e" />
 
-Choisissez **"Installer disc image file (iso)"** et sélectionnez l'ISO Ubuntu téléchargée. VMware détecte automatiquement le système et active le mode **Easy Install**.
+Appuyez sur **"Suivant"** pour la compatibilité matérielle, celle proposée sera la **"Workstation 25H2"**, il se peut que vous ayez une version un peu plus ancienne, mais qui fonctionnera correctement.
 
-![Sélection de l'ISO Ubuntu](https://github.com/user-attachments/assets/87ab0fac-f911-4b4d-89fd-931495e412e6)
+<img width="1919" height="1031" alt="Capture d&#39;écran 2026-06-26 132916" src="https://github.com/user-attachments/assets/a5c2bad3-9701-4194-92fa-2b37e3a7ef68" />
+
+Choisissez **"Fichier image du disque d'installation (iso)"** et sélectionnez l'ISO Ubuntu téléchargée. VMware détecte automatiquement le système et active le mode **Easy Install**.
+
+<img width="1919" height="1029" alt="Capture d&#39;écran 2026-06-26 132950" src="https://github.com/user-attachments/assets/a073a464-ce50-4022-9af8-afe416121f2e" />
 
 Renseignez le **nom d'utilisateur** et le **mot de passe** du compte Ubuntu qui sera créé automatiquement lors de l'installation.
 
-![Création du compte utilisateur](https://github.com/user-attachments/assets/a2ab2e59-77ff-489b-9435-1845f6daca82)
+<img width="1919" height="1031" alt="Capture d&#39;écran 2026-06-26 133040" src="https://github.com/user-attachments/assets/99b8568f-b075-494e-88d5-cef47deeabd1" />
 
 ### 2. Configuration matérielle
 
 Donnez un **nom à votre VM** et choisissez l'emplacement de stockage sur votre disque.
 
-![Nom et emplacement de la VM](https://github.com/user-attachments/assets/27440a34-f611-48e6-b1a7-3574f48a7867)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 133056" src="https://github.com/user-attachments/assets/2ad6f4db-3200-4217-98cd-f70ceba23049" />
 
-Définissez la **taille du disque virtuel** allouée à la VM. Un minimum de **20 Go** est recommandé. Sélectionnez "Store virtual disk as a single file" pour de meilleures performances.
+Indiquez le **nombre de processeur** que vous partagerez à votre VM.
 
-![Taille du disque virtuel](https://github.com/user-attachments/assets/ac73d4c4-60ba-4b30-8f5f-0212de3f023e)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 133115" src="https://github.com/user-attachments/assets/818f6757-3a52-483b-b40b-f64604252461" />
+
+Puis la **mémoire vive** (RAM).
+
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 133135" src="https://github.com/user-attachments/assets/3004199b-b6a7-4193-a91e-a850402098ac" />
+
+Choisissez le type de réseau à utiliser (priviligiez "*NAT*" ou "*par un pont*").
+
+<img width="1919" height="1029" alt="Capture d&#39;écran 2026-06-26 133143" src="https://github.com/user-attachments/assets/bdb6c6c7-6305-4784-a9ec-242dbc15cdac" />
+
+Ensuite, appuyez sur **"Suivant"** pour laisser par défaut jusqu'à arriver sur les paramètres de **taille du disque dur**.
+
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 133150" src="https://github.com/user-attachments/assets/fe3802d8-3c9b-4c7b-a601-b664c9645696" />
+<img width="1919" height="1029" alt="Capture d&#39;écran 2026-06-26 133157" src="https://github.com/user-attachments/assets/05044f43-dd7c-4cf4-a390-22d36e306593" />
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 133204" src="https://github.com/user-attachments/assets/57c6524b-f5fc-4656-ac3d-daaf5ca0d100" />
+
+Définissez la **taille du disque virtuel** allouée à la VM. Un minimum de **20 Go** est recommandé. Sélectionnez "Store virtual disk as a single file" pour de meilleures performances. Puis, choisissez l'emplacement du disque dur virtuel.
+
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 133215" src="https://github.com/user-attachments/assets/1fc03a1b-d334-4a0b-9c22-1f54da5e4af2" />
+<img width="1919" height="1027" alt="Capture d&#39;écran 2026-06-26 133225" src="https://github.com/user-attachments/assets/c986494c-18ae-44ad-8ed0-431c49f76c59" />
 
 Un récapitulatif de la configuration s'affiche. Cliquez sur **"Customize Hardware..."** si vous souhaitez ajuster la RAM ou les cœurs CPU, puis sur **Finish** pour démarrer la VM.
 
-![Récapitulatif de la configuration](https://github.com/user-attachments/assets/5c6ad93f-8806-47b8-b491-2f268273a72a)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 133247" src="https://github.com/user-attachments/assets/c13e413f-3c0e-4194-a2a6-1e1e06ba7e33" />
 
 > VMware lance alors l'installation automatiquement. Passez directement à la section [Installation d'Ubuntu Desktop](#installation-dubuntu-desktop).
 
@@ -100,47 +123,39 @@ Sélectionnez la clé USB comme périphérique de démarrage, puis continuez ver
 
 À partir d'ici, le processus est identique que vous soyez en VM ou sur PC physique.
 
-Sélectionnez votre **langue** puis cliquez sur **"Install Ubuntu"**.
-
-![Sélection de la langue](https://github.com/user-attachments/assets/1293c2f1-d1d8-413a-9b4d-5adafa3152e7)
-
 Choisissez la **disposition du clavier** correspondant à votre matériel (ex. : French pour un clavier AZERTY).
 
-![Choix du clavier](https://github.com/user-attachments/assets/e580048c-66fb-4cc7-81ee-85acb31ad705)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 134131" src="https://github.com/user-attachments/assets/e2f84068-704b-4dee-ae8c-ddafcb853fb9" />
 
 Sélectionnez le **type d'installation**. L'option **"Normal installation"** convient à la majorité des usages. Cochez également l'installation des mises à jour et des pilotes tiers si vous avez une connexion Internet.
 
-![Type d'installation](https://github.com/user-attachments/assets/ab04b431-ab30-4d87-882d-6dbf3e87c796)
-
-Si disponible, l'installeur propose de vous connecter au réseau pour télécharger les mises à jour pendant l'installation.
-
-![Connexion réseau](https://github.com/user-attachments/assets/b365a5e9-6e02-4022-b54c-2fabcf4f25d6)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 134150" src="https://github.com/user-attachments/assets/ddbd87f2-edc5-46e7-94bd-e06aa8414cc6" />
 
 Choisissez le **type de partitionnement**. Pour un PC dédié à Ubuntu, l'option **"Erase disk and install Ubuntu"** est la plus simple et la plus rapide.
 
 > ⚠️ Cette option efface l'intégralité du disque sélectionné. Sauvegardez vos données importantes avant de continuer.
 
-![Type de partitionnement](https://github.com/user-attachments/assets/f4be0e1e-e1c3-4632-aa32-c5e792900cd3)
+<img width="1917" height="1034" alt="Capture d&#39;écran 2026-06-26 134216" src="https://github.com/user-attachments/assets/24367e5b-2686-4c28-b3a3-41d43cd30fc2" />
 
 Confirmez l'écriture sur le disque en cliquant sur **"Continue"**.
 
-![Confirmation du partitionnement](https://github.com/user-attachments/assets/1c81180a-2783-4a22-8c66-166063444d87)
+<img width="1917" height="1034" alt="Capture d&#39;écran 2026-06-26 134229" src="https://github.com/user-attachments/assets/696cc29c-e19e-40a5-a0c8-65678d9fae48" />
 
 Sélectionnez votre **fuseau horaire** sur la carte interactive.
 
-![Choix du fuseau horaire](https://github.com/user-attachments/assets/842dfb4c-80a9-49d7-8ffc-5a9661c9a3e6)
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 134242" src="https://github.com/user-attachments/assets/39d838bf-2416-43f8-9dfc-41b2fc6a23ef" />
 
 Créez votre **compte utilisateur** : renseignez votre nom complet, le nom de la machine, votre identifiant et un mot de passe.
 
-![Création du compte](https://github.com/user-attachments/assets/98b5e3ef-d5db-4a88-ad67-25fabaac1ffd)
+<img width="1919" height="1031" alt="Capture d&#39;écran 2026-06-26 134345" src="https://github.com/user-attachments/assets/8a6d829b-86b9-44f9-984d-d22d218cebaf" />
 
 L'installation démarre. Cette étape prend généralement entre **5 et 15 minutes** selon les performances de la machine.
 
-![Installation en cours](https://github.com/user-attachments/assets/a8ffb485-0f97-4539-997e-353a2e772790)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 134428" src="https://github.com/user-attachments/assets/156d8642-74c1-4396-9218-949722c6ee9a" />
 
 Une fois l'installation terminée, un message vous invite à **redémarrer**. Si vous étiez en mode PC physique, retirez la clé USB avant de relancer.
 
-![Installation terminée — Redémarrer](https://github.com/user-attachments/assets/7580d129-98d1-4d31-bd08-c5fdf89a916b)
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 135045" src="https://github.com/user-attachments/assets/c8ed2ae1-9faf-4417-86d0-ff22e9b31d86" />
 
 ---
 
@@ -148,27 +163,26 @@ Une fois l'installation terminée, un message vous invite à **redémarrer**. Si
 
 Au premier lancement, Ubuntu affiche un écran de connexion. Saisissez le mot de passe défini lors de l'installation.
 
-![Écran de connexion](https://github.com/user-attachments/assets/aa8adf72-f979-49d7-b7d5-ed25b9dfc8b8)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 135142" src="https://github.com/user-attachments/assets/7e01cae7-c23a-4991-9cff-1963c62dbb7e" />
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 135157" src="https://github.com/user-attachments/assets/4be2448e-b006-440d-9aa3-ad4b33e3b111" />
 
 Un assistant de bienvenue se lance automatiquement pour configurer les derniers paramètres.
 
-![Assistant de bienvenue Ubuntu](https://github.com/user-attachments/assets/3d657dfd-8291-4f9b-8280-ce7a63cdb46c)
-
-Configurez vos **préférences de confidentialité** (partage de données, géolocalisation).
-
-![Paramètres de confidentialité](https://github.com/user-attachments/assets/bbc97950-2704-4dae-afbf-f2e072fa3f9f)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 135221" src="https://github.com/user-attachments/assets/f123de28-f11b-41e8-811d-ac21ba965c41" />
 
 Ubuntu propose un abonnement **Ubuntu Pro** (optionnel et gratuit pour usage personnel). Vous pouvez ignorer cette étape.
 
-![Ubuntu Pro](https://github.com/user-attachments/assets/0b5d62bb-dfa7-4a52-ba6e-6e87c7b3cd21)
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 135232" src="https://github.com/user-attachments/assets/9f392ad8-0af1-4134-8e85-4ecc9cef2330" />
 
-L'assistant propose une sélection d'**applications recommandées** selon vos usages.
+Configurez vos **préférences de confidentialité** (partage de données, géolocalisation).
 
-![Applications recommandées](https://github.com/user-attachments/assets/ba9cb96f-8158-438d-85dd-1228e3751aba)
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 135254" src="https://github.com/user-attachments/assets/c91377d4-7f6b-4aa1-aced-2fdd30e505fb" />
+<img width="1919" height="1036" alt="Capture d&#39;écran 2026-06-26 135244" src="https://github.com/user-attachments/assets/83e9e915-2374-449d-b81d-67699ed924f0" />
 
 L'assistant se conclut avec un message de bienvenue. Cliquez sur **"Done"** pour accéder au bureau.
 
-![Fin de l'assistant](https://github.com/user-attachments/assets/22120e38-3cae-494b-97a8-c2a0618156fd)
+<img width="1919" height="1032" alt="Capture d&#39;écran 2026-06-26 135310" src="https://github.com/user-attachments/assets/626e5317-cc33-4da5-8b9a-6985a6c63e1a" />
+
 
 ---
 
@@ -176,27 +190,9 @@ L'assistant se conclut avec un message de bienvenue. Cliquez sur **"Done"** pour
 
 Vous accédez désormais au **bureau Ubuntu Desktop**. L'environnement GNOME est prêt à l'emploi.
 
-![Bureau Ubuntu Desktop](https://github.com/user-attachments/assets/3ccea4b7-5fc0-45ed-9a74-78f96d410100)
+<img width="1919" height="1034" alt="Capture d&#39;écran 2026-06-26 135323" src="https://github.com/user-attachments/assets/e0694d4c-f41f-40fb-97d6-5d0cef2da96c" />
 
-![Vue du bureau avec dock latéral](https://github.com/user-attachments/assets/b7d35c45-fa9f-41aa-a1c1-511d10cff1ec)
-
-![Gestionnaire de fichiers Nautilus](https://github.com/user-attachments/assets/fb82c846-973e-4c6d-af9f-67423b8e8d9f)
-
-![Menu des applications](https://github.com/user-attachments/assets/609a5ae5-c528-407b-8536-cc88f8226b3f)
-
-![Paramètres système](https://github.com/user-attachments/assets/7bf68df6-d3ee-455a-a496-6c7b1564d19e)
-
-![Terminal Ubuntu](https://github.com/user-attachments/assets/85488b2b-572a-4c41-8002-3077ec4bd2f0)
-
-![Bureau avec plusieurs fenêtres ouvertes](https://github.com/user-attachments/assets/e40be6b0-b128-4482-9f39-a2f5f8e8e2a9)
-
-![Vue d'ensemble des espaces de travail](https://github.com/user-attachments/assets/a9fc304f-3564-43c3-b27f-b49582d0a0f0)
-
-![Navigation web avec Firefox](https://github.com/user-attachments/assets/83728765-45d7-423a-b96d-ae737252deca)
-
-![Bureau finalisé et fonctionnel](https://github.com/user-attachments/assets/275a9a37-734d-4aba-b8f8-895847220af2)
-
-![Ubuntu Desktop opérationnel](https://github.com/user-attachments/assets/16b21205-615f-4136-abb4-a0395b725fb7)
+Vous avez les applications disponibles en appuyant sur **l'icône à 9 boutons**.
 
 Ubuntu Desktop est maintenant pleinement opérationnel. Vous pouvez installer vos applications via le **gestionnaire de logiciels** ou directement depuis le terminal avec `apt`.
 
